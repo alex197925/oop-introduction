@@ -28,4 +28,21 @@ class Person
 }
 ?>
 ```
+-------
+### Exercide N 2
+### Extends
+The extends keyword is used to derive a class from another class. This is called inheritance. A derived class has all of the public and protected properties of the class that it is derived from.
 
+To learn make class that extends from another class.
+
+````php
+class Student extends Person {
+    // inherited from parent class , needs to be defined but should follow the same parameters
+    public function sayHello() : string {
+        return "Hello! I'm a student and my name is $this->name!";
+    }
+}
+````
+-----
+### Exercide N 3
+### Extends
