@@ -92,3 +92,15 @@ class Person
 }
 ?>
 ````
+### Exercide N 4
+## if  statement 
+If statement - executes some code if one condition is true.
+````php
+<?php
+$t = date("H");
+
+if ($t < "20") {
+  echo "Have a good day!";
+}
+?>
+````
