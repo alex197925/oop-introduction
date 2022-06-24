@@ -50,9 +50,25 @@ Private - the property or method can ONLY be accessed within the class
 * Make all properties private
 
 ````php
-// Public
-public $variable;
-public function doSomething() {
-  // ...
+
+// Private
+
+<?php
+class Person 
+{
+    private $name;
+    private $age;
+    public function __construct($name, $age) {
+        $this->name = $name;
+        $this->age = $age;
+    }
+    public function sayHello() {
+        echo "Hello I am " . $this->name . " and I am " . $this->age . " years old.";
+    }
+}
+?>
+
 }
 ````
+### Exercide N 4
+## Private
