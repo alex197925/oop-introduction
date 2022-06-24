@@ -6,7 +6,10 @@ OOP - Object Orientated Programming - focuses on the objects that developers wan
 ### Exercide N 1
 ### Classes
 Classes are the blueprints of objects.
+
 Class is a programmer-defined data type, which includes local methods and local variables.
+
+
 Class is a collection of objects. Object has properties and behavior.
 
 * Understand how create classes, properties, construct and public function.
@@ -31,7 +34,11 @@ class Person
 ---
 ### Exercide N 2
 ## Extends
-The extends keyword is used to derive a class from another class. This is called inheritance. A derived class has all of the public and protected properties of the class that it is derived from.
+The extends keyword is used to derive a class from another class.
+
+This is called inheritance.
+
+A derived class has all of the public and protected properties of the class that it is derived from.
 
 * To learn make class that extends from another class.
 
