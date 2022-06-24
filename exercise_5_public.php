@@ -30,13 +30,16 @@ class Beverage {
     {
         echo "This beverage is $this->temperature and $this->color";
     }
+
+
     public function changePrice (float $newprice){
          if ($newprice < 0) {
             return $this->price;
    }
           $this->price = $newprice;
-          $this->price . "is now" .$this->price;
     }
+
+
 
     public function getPrice (): float
     {
