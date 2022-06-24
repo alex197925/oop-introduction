@@ -9,7 +9,7 @@ Classes are the blueprints of objects.
 Class is a programmer-defined data type, which includes local methods and local variables.
 Class is a collection of objects. Object has properties and behavior.
 
-Understand how create classes, properties, construct and public function.
+* Understand how create classes, properties, construct and public function.
 
 Example 
 ```php
@@ -30,10 +30,10 @@ class Person
 ```
 -------
 ### Exercide N 2
-### Extends
+## Extends
 The extends keyword is used to derive a class from another class. This is called inheritance. A derived class has all of the public and protected properties of the class that it is derived from.
 
-To learn make class that extends from another class.
+* To learn make class that extends from another class.
 
 ````php
 class Student extends Person {
@@ -45,4 +45,14 @@ class Student extends Person {
 ````
 -----
 ### Exercide N 3
-### Extends
+## Private
+Private - the property or method can ONLY be accessed within the class
+* Make all properties private
+
+````php
+// Public
+public $variable;
+public function doSomething() {
+  // ...
+}
+````
